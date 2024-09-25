@@ -115,7 +115,7 @@ Before you begin, ensure you have the following installed:
 - **Endpoint**: `/api/pokemon/:id`
 - **Method**: `GET`
 - **Description**: Get a specific Pokemon and return its “name” and “types”.
-- **Url**: https://pokenode-api-pokemon-1.onrender.com/api/pokemon/:id
+- **Url**: https://pokenode-api-pokemon-1.onrender.com/api/pokemon/1
 - **Sample Response**:
     ```json
     {
@@ -141,10 +141,10 @@ Before you begin, ensure you have the following installed:
 
 ### 3. Get Pokémon with Type Translations
 
-- **Endpoint**: `/api/pokemonAndTypes/:id`
+- **Endpoint**: `api/pokemon/pokemonAndTypes/:id`
 - **Method**: `GET`
 - **Description**: Retrieves a specific Pokémon's name and types, with translations of type names in Spanish and Japanese.
-- **Url**: https://pokenode-api-pokemon-1.onrender.com/api/pokemonAndTypes/:id
+- **Url**: https://pokenode-api-pokemon-1.onrender.com/api/pokemon/pokemonAndTypes/1
 - **Sample Response**:
 
     ```json
