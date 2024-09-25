@@ -92,6 +92,7 @@ Before you begin, ensure you have the following installed:
 - **Endpoint**: `/api/pokemon`
 - **Method**: `GET`
 - **Description**: Returns the first 100 Pokémon with their names and URLs.
+- **Url**: https://pokenode-api-pokemon-1.onrender.com/api/pokemon
 - **Sample Response**:
 
     ```json
@@ -110,11 +111,40 @@ Before you begin, ensure you have the following installed:
     }
     ```
 
-### 2. Get Pokémon with Type Translations
+### 2. Get a specific Pokemon and return its “name” and “types”.
+- **Endpoint**: `/api/pokemon/:id`
+- **Method**: `GET`
+- **Description**: Get a specific Pokemon and return its “name” and “types”.
+- **Url**: https://pokenode-api-pokemon-1.onrender.com/api/pokemon/:id`
+- **Sample Response**:
+    ```json
+    {
+      "name": "bulbasaur",
+     "types": [
+        {
+          "slot": 1,
+          "type": {
+          "name": "grass",
+          "url": "https://pokeapi.co/api/v2/type/12/"
+          }
+        },
+          {
+          "slot": 2,
+          "type": {
+          "name": "poison",
+          "url": "https://pokeapi.co/api/v2/type/4/"
+          }
+      }
+    ]
+    }
+    ```
+
+### 3. Get Pokémon with Type Translations
 
 - **Endpoint**: `/api/pokemonAndTypes/:id`
 - **Method**: `GET`
 - **Description**: Retrieves a specific Pokémon's name and types, with translations of type names in Spanish and Japanese.
+- **Url**: https://pokenode-api-pokemon-1.onrender.com/api/pokemonAndTypes/:id
 - **Sample Response**:
 
     ```json
