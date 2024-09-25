@@ -115,7 +115,7 @@ Before you begin, ensure you have the following installed:
 - **Endpoint**: `/api/pokemon/:id`
 - **Method**: `GET`
 - **Description**: Get a specific Pokemon and return its “name” and “types”.
-- **Url**: https://pokenode-api-pokemon-1.onrender.com/api/pokemon/:id`
+- **Url**: https://pokenode-api-pokemon-1.onrender.com/api/pokemon/:id
 - **Sample Response**:
     ```json
     {
