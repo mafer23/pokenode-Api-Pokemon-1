@@ -1,0 +1,28 @@
+# Ignorar el directorio de dependencias
+node_modules/
+
+# Archivos de logs
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Archivos de entorno
+.env
+.env.* 
+
+# Directorios de construcción
+dist/
+build/
+out/
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+
+# Archivos de cobertura
+coverage/
+reports/
