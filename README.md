@@ -55,7 +55,7 @@ Before you begin, ensure you have the following installed:
 2. **Navigate to the project directory**:
 
     ```bash
-    cd pokemon-api
+    cd pokenode-Api-Pokemon-1
     ```
 
 3. **Install dependencies**:
