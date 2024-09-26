@@ -201,7 +201,6 @@ Before you begin, ensure you have the following installed:
 │   ├── controllers   # Handles API requests
 │   ├── services      # Business logic and data fetching
 │   ├── routes        # API route definitions
-│   ├── types         # Custom TypeScript types
 ├── package.json
 ├── tsconfig.json
 └── README.md
