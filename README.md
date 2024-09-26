@@ -49,7 +49,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/pokemon-api.git
+   git clone https://github.com/mafer23/pokenode-Api-Pokemon-1
     ```
 
 2. **Navigate to the project directory**:
@@ -78,6 +78,7 @@ Before you begin, ensure you have the following installed:
 
     ```bash
     npm run dev
+    npx ts-node src/app.ts
     ```
 
     This command will start the development server with **nodemon** for live reloading.
