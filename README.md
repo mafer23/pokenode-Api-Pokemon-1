@@ -21,6 +21,7 @@ A RESTful API built with **Node.js**, **Express**, and **TypeScript** that inter
 ## ✨ Features
 
 - **List first 100 Pokémon**: Fetches a list of Pokémon with their names and URLs.
+- **Get a specific Pokemon and return its “name” and “types”.
 - **Get Pokémon with Type Translations**: Retrieves a specific Pokémon's name and types, including translations of type names in Spanish and Japanese.
 
 ## ⚙️ Tech Stack
