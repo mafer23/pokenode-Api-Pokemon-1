@@ -12,4 +12,5 @@ router.get('/', PokemonController.getFirst100Pokemons);
 // Ruta para obtener los datos y tipos de un Pokémon por ID
 router.get('/pokemonAndTypes/:id', PokemonController.getPokemonAndTypes);
 
+
 export default router;
