@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import PokemonService from '../services/pokemon.service';
 
 class PokemonController {
-
+  
    // Obtener un Pokémon por su nombre
   public static async getPokemonByName(req: Request, res: Response): Promise<void> {
     const { name } = req.params;
@@ -14,6 +14,11 @@ class PokemonController {
     }
   }
 
+
+
+   
+
+   
   // Obtener los primeros 100 Pokémon
   public static async getFirst100Pokemons(req: Request, res:Response): Promise<void>{
     try {
